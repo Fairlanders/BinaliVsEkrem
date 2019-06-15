@@ -1,6 +1,6 @@
 $(function () {
 
-    var targetDate = new Date("2019/06/16 20:00:00");
+    var targetDate = new Date("2019/06/15 20:00:00");
     var now = new Date();
 
     window.days = daysBetween(now, targetDate);
@@ -119,6 +119,3 @@ function displayValue(target, value) {
 function pad(number) {
     return ("0" + number).slice(-2);
 }
-
-const volume = document.querySelector("iframeAudio").volume; // 1 
-document.querySelector("video").volume = 0.2
